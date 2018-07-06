@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		256906962FDCC75B8A647A12 /* libPods-JQReimbursementTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB483A24FE5B37CCFC3A4E8 /* libPods-JQReimbursementTests.a */; };
 		5A5EFD1120EE1EFA004F88C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5EFD1020EE1EFA004F88C3 /* AppDelegate.m */; };
 		5A5EFD1420EE1EFA004F88C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5EFD1320EE1EFA004F88C3 /* ViewController.m */; };
 		5A5EFD1720EE1EFA004F88C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5EFD1520EE1EFA004F88C3 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		5A5EFD1F20EE1EFD004F88C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5EFD1E20EE1EFD004F88C3 /* main.m */; };
 		5A5EFD2920EE1EFD004F88C3 /* JQReimbursementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5EFD2820EE1EFD004F88C3 /* JQReimbursementTests.m */; };
 		5A5EFD3420EE1EFD004F88C3 /* JQReimbursementUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5EFD3320EE1EFD004F88C3 /* JQReimbursementUITests.m */; };
+		5A5EFD4320EE1F94004F88C3 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5EFD4120EE1F93004F88C3 /* TabBarViewController.m */; };
+		6A390CF6BCF8903E2E585783 /* libPods-JQReimbursement.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F671D6183174409F522B6685 /* libPods-JQReimbursement.a */; };
+		9B5812274A45CAA93F4D02E4 /* libPods-JQReimbursementUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A24E8BC1F2B7F0F3475F7020 /* libPods-JQReimbursementUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0615C965644A907A8978AB7D /* Pods-JQReimbursementUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQReimbursementUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JQReimbursementUITests/Pods-JQReimbursementUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F5F8DD5E58AE7EB6787BEC9 /* Pods-JQReimbursement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQReimbursement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JQReimbursement/Pods-JQReimbursement.debug.xcconfig"; sourceTree = "<group>"; };
 		5A5EFD0C20EE1EFA004F88C3 /* JQReimbursement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQReimbursement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A5EFD0F20EE1EFA004F88C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A5EFD1020EE1EFA004F88C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,15 @@
 		5A5EFD2F20EE1EFD004F88C3 /* JQReimbursementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQReimbursementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A5EFD3320EE1EFD004F88C3 /* JQReimbursementUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQReimbursementUITests.m; sourceTree = "<group>"; };
 		5A5EFD3520EE1EFD004F88C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A5EFD4120EE1F93004F88C3 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		5A5EFD4220EE1F93004F88C3 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		7CB483A24FE5B37CCFC3A4E8 /* libPods-JQReimbursementTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQReimbursementTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24E8BC1F2B7F0F3475F7020 /* libPods-JQReimbursementUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQReimbursementUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58B25B7EE5E4337189A5DBD /* Pods-JQReimbursementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQReimbursementTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JQReimbursementTests/Pods-JQReimbursementTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC2940971D4119948386F421 /* Pods-JQReimbursementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQReimbursementTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JQReimbursementTests/Pods-JQReimbursementTests.release.xcconfig"; sourceTree = "<group>"; };
+		F1CCF5D3BC385F159B416AFE /* Pods-JQReimbursementUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQReimbursementUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JQReimbursementUITests/Pods-JQReimbursementUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F671D6183174409F522B6685 /* libPods-JQReimbursement.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQReimbursement.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78876012AFE9051B6B1B508 /* Pods-JQReimbursement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQReimbursement.release.xcconfig"; path = "Pods/Target Support Files/Pods-JQReimbursement/Pods-JQReimbursement.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A390CF6BCF8903E2E585783 /* libPods-JQReimbursement.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256906962FDCC75B8A647A12 /* libPods-JQReimbursementTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B5812274A45CAA93F4D02E4 /* libPods-JQReimbursementUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +103,8 @@
 				5A5EFD2720EE1EFD004F88C3 /* JQReimbursementTests */,
 				5A5EFD3220EE1EFD004F88C3 /* JQReimbursementUITests */,
 				5A5EFD0D20EE1EFA004F88C3 /* Products */,
+				7B7CD4855FFF15051F4D5E47 /* Pods */,
+				D5CF277A53912A07144D7DFE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +125,8 @@
 				5A5EFD1020EE1EFA004F88C3 /* AppDelegate.m */,
 				5A5EFD1220EE1EFA004F88C3 /* ViewController.h */,
 				5A5EFD1320EE1EFA004F88C3 /* ViewController.m */,
+				5A5EFD4220EE1F93004F88C3 /* TabBarViewController.h */,
+				5A5EFD4120EE1F93004F88C3 /* TabBarViewController.m */,
 				5A5EFD1520EE1EFA004F88C3 /* Main.storyboard */,
 				5A5EFD1820EE1EFD004F88C3 /* Assets.xcassets */,
 				5A5EFD1A20EE1EFD004F88C3 /* LaunchScreen.storyboard */,
@@ -132,6 +154,29 @@
 			path = JQReimbursementUITests;
 			sourceTree = "<group>";
 		};
+		7B7CD4855FFF15051F4D5E47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F5F8DD5E58AE7EB6787BEC9 /* Pods-JQReimbursement.debug.xcconfig */,
+				F78876012AFE9051B6B1B508 /* Pods-JQReimbursement.release.xcconfig */,
+				A58B25B7EE5E4337189A5DBD /* Pods-JQReimbursementTests.debug.xcconfig */,
+				EC2940971D4119948386F421 /* Pods-JQReimbursementTests.release.xcconfig */,
+				0615C965644A907A8978AB7D /* Pods-JQReimbursementUITests.debug.xcconfig */,
+				F1CCF5D3BC385F159B416AFE /* Pods-JQReimbursementUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5CF277A53912A07144D7DFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F671D6183174409F522B6685 /* libPods-JQReimbursement.a */,
+				7CB483A24FE5B37CCFC3A4E8 /* libPods-JQReimbursementTests.a */,
+				A24E8BC1F2B7F0F3475F7020 /* libPods-JQReimbursementUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A5EFD3820EE1EFD004F88C3 /* Build configuration list for PBXNativeTarget "JQReimbursement" */;
 			buildPhases = (
+				79D244BC568CF02E03FC22C7 /* [CP] Check Pods Manifest.lock */,
 				5A5EFD0820EE1EFA004F88C3 /* Sources */,
 				5A5EFD0920EE1EFA004F88C3 /* Frameworks */,
 				5A5EFD0A20EE1EFA004F88C3 /* Resources */,
+				DACE7C5FF6B000EFC3D7CFB5 /* [CP] Embed Pods Frameworks */,
+				5E52A58F9D95AFACA4369681 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A5EFD3B20EE1EFD004F88C3 /* Build configuration list for PBXNativeTarget "JQReimbursementTests" */;
 			buildPhases = (
+				DFB718ACEEBFAF707C444617 /* [CP] Check Pods Manifest.lock */,
 				5A5EFD2020EE1EFD004F88C3 /* Sources */,
 				5A5EFD2120EE1EFD004F88C3 /* Frameworks */,
 				5A5EFD2220EE1EFD004F88C3 /* Resources */,
+				EB3A776DE2BAFA3D0935623D /* [CP] Embed Pods Frameworks */,
+				7CB2CCA059085751CB1BCFC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A5EFD3E20EE1EFD004F88C3 /* Build configuration list for PBXNativeTarget "JQReimbursementUITests" */;
 			buildPhases = (
+				3B2D8977275A252EF55AAAF6 /* [CP] Check Pods Manifest.lock */,
 				5A5EFD2B20EE1EFD004F88C3 /* Sources */,
 				5A5EFD2C20EE1EFD004F88C3 /* Frameworks */,
 				5A5EFD2D20EE1EFD004F88C3 /* Resources */,
+				F13BEDA91A0C197DAD93E8FB /* [CP] Embed Pods Frameworks */,
+				DE57C9A8FF3AB350D7AC2D24 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,11 +311,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B2D8977275A252EF55AAAF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JQReimbursementUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E52A58F9D95AFACA4369681 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQReimbursement/Pods-JQReimbursement-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79D244BC568CF02E03FC22C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JQReimbursement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CB2CCA059085751CB1BCFC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQReimbursementTests/Pods-JQReimbursementTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DACE7C5FF6B000EFC3D7CFB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQReimbursement/Pods-JQReimbursement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE57C9A8FF3AB350D7AC2D24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQReimbursementUITests/Pods-JQReimbursementUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFB718ACEEBFAF707C444617 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JQReimbursementTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB3A776DE2BAFA3D0935623D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQReimbursementTests/Pods-JQReimbursementTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13BEDA91A0C197DAD93E8FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQReimbursementUITests/Pods-JQReimbursementUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5A5EFD0820EE1EFA004F88C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5EFD4320EE1F94004F88C3 /* TabBarViewController.m in Sources */,
 				5A5EFD1420EE1EFA004F88C3 /* ViewController.m in Sources */,
 				5A5EFD1F20EE1EFD004F88C3 /* main.m in Sources */,
 				5A5EFD1120EE1EFA004F88C3 /* AppDelegate.m in Sources */,
@@ -431,14 +633,13 @@
 		};
 		5A5EFD3920EE1EFD004F88C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F5F8DD5E58AE7EB6787BEC9 /* Pods-JQReimbursement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93P22LV9G4;
 				INFOPLIST_FILE = JQReimbursement/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuqi.JQReimbursement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,14 +648,13 @@
 		};
 		5A5EFD3A20EE1EFD004F88C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78876012AFE9051B6B1B508 /* Pods-JQReimbursement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93P22LV9G4;
 				INFOPLIST_FILE = JQReimbursement/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuqi.JQReimbursement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,15 +663,12 @@
 		};
 		5A5EFD3C20EE1EFD004F88C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A58B25B7EE5E4337189A5DBD /* Pods-JQReimbursementTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JQReimbursementTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuqi.JQReimbursementTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -481,15 +678,12 @@
 		};
 		5A5EFD3D20EE1EFD004F88C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC2940971D4119948386F421 /* Pods-JQReimbursementTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JQReimbursementTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuqi.JQReimbursementTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -499,14 +693,11 @@
 		};
 		5A5EFD3F20EE1EFD004F88C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0615C965644A907A8978AB7D /* Pods-JQReimbursementUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JQReimbursementUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuqi.JQReimbursementUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -516,14 +707,11 @@
 		};
 		5A5EFD4020EE1EFD004F88C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1CCF5D3BC385F159B416AFE /* Pods-JQReimbursementUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JQReimbursementUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuqi.JQReimbursementUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
