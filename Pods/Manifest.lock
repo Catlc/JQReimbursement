@@ -1,3 +1,20 @@
-PODFILE CHECKSUM: 7d206366d23be5aed255f24f23e2efd20cd1466a
+PODS:
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.4.1):
+    - SDWebImage/Core (= 4.4.1)
+  - SDWebImage/Core (4.4.1)
+  - XLForm (4.0.0)
+
+DEPENDENCIES:
+  - SDCycleScrollView (~> 1.75)
+  - XLForm (~> 4.0)
+
+SPEC CHECKSUMS:
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+  XLForm: 04110197c12187dd28a6c7295d3d8b95f4fdb4de
+
+PODFILE CHECKSUM: d84f88073d0ca402b59a7a0ccfef541328b1e17e
 
 COCOAPODS: 1.4.0

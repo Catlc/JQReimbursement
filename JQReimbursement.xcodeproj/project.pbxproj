@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		256906962FDCC75B8A647A12 /* libPods-JQReimbursementTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB483A24FE5B37CCFC3A4E8 /* libPods-JQReimbursementTests.a */; };
+		5A0C26FB20F9E1BA00D6BE35 /* BasicInformationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0C26FA20F9E1BA00D6BE35 /* BasicInformationCell.m */; };
+		5A0C26FD20F9E47400D6BE35 /* BasicInformationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A0C26FC20F9E47400D6BE35 /* BasicInformationCell.xib */; };
+		5A0C273020FA458A00D6BE35 /* JQTextInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0C272F20FA458A00D6BE35 /* JQTextInputCell.m */; };
+		5A0C273220FA482300D6BE35 /* JQTextInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A0C273120FA482300D6BE35 /* JQTextInputCell.xib */; };
+		5A0C273520FA490400D6BE35 /* JQLabeledTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0C273320FA490400D6BE35 /* JQLabeledTextFieldCell.m */; };
+		5A0C273720FA59B200D6BE35 /* JQLabeledTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A0C273620FA59B200D6BE35 /* JQLabeledTextFieldCell.xib */; };
+		5A3B130C20FB75EC00BA1EAB /* JQLableRightButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B130B20FB75EC00BA1EAB /* JQLableRightButtonCell.m */; };
+		5A3B130E20FB75FD00BA1EAB /* JQLableRightButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A3B130D20FB75FD00BA1EAB /* JQLableRightButtonCell.xib */; };
+		5A3B131120FB79F600BA1EAB /* ReimbursementDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B131020FB79F600BA1EAB /* ReimbursementDetailViewController.m */; };
+		5A3B131420FB7C6900BA1EAB /* JQReimbursementDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B131320FB7C6900BA1EAB /* JQReimbursementDetailCell.m */; };
+		5A3B131620FB7C7600BA1EAB /* JQReimbursementDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A3B131520FB7C7600BA1EAB /* JQReimbursementDetailCell.xib */; };
 		5A5EFD1120EE1EFA004F88C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5EFD1020EE1EFA004F88C3 /* AppDelegate.m */; };
 		5A5EFD1420EE1EFA004F88C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5EFD1320EE1EFA004F88C3 /* ViewController.m */; };
 		5A5EFD1720EE1EFA004F88C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5EFD1520EE1EFA004F88C3 /* Main.storyboard */; };
@@ -17,6 +28,14 @@
 		5A5EFD2920EE1EFD004F88C3 /* JQReimbursementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5EFD2820EE1EFD004F88C3 /* JQReimbursementTests.m */; };
 		5A5EFD3420EE1EFD004F88C3 /* JQReimbursementUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5EFD3320EE1EFD004F88C3 /* JQReimbursementUITests.m */; };
 		5A5EFD4320EE1F94004F88C3 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5EFD4120EE1F93004F88C3 /* TabBarViewController.m */; };
+		5A5EFD6C20EF5E79004F88C3 /* JQBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5EFD6B20EF5E79004F88C3 /* JQBaseNavViewController.m */; };
+		5A5EFD7420EF5FC2004F88C3 /* JQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5EFD7320EF5FC2004F88C3 /* JQHomeViewController.m */; };
+		5A5EFD7720EF5FDB004F88C3 /* JQFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5EFD7620EF5FDB004F88C3 /* JQFunctionViewController.m */; };
+		5A5EFD7A20EF5FE9004F88C3 /* JQMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5EFD7920EF5FE9004F88C3 /* JQMessageViewController.m */; };
+		5A5EFD7D20EF5FF6004F88C3 /* JQMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5EFD7C20EF5FF6004F88C3 /* JQMineViewController.m */; };
+		5A5EFD8020EF6FD6004F88C3 /* HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5EFD7F20EF6FD6004F88C3 /* HomeCollectionViewCell.m */; };
+		5AA1705220F4AABC00054AD1 /* TravelReimbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1705120F4AABC00054AD1 /* TravelReimbViewController.m */; };
+		5AA1705520F5B3FC00054AD1 /* PaperRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1705420F5B3FC00054AD1 /* PaperRegistrationViewController.m */; };
 		6A390CF6BCF8903E2E585783 /* libPods-JQReimbursement.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F671D6183174409F522B6685 /* libPods-JQReimbursement.a */; };
 		9B5812274A45CAA93F4D02E4 /* libPods-JQReimbursementUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A24E8BC1F2B7F0F3475F7020 /* libPods-JQReimbursementUITests.a */; };
 /* End PBXBuildFile section */
@@ -41,6 +60,23 @@
 /* Begin PBXFileReference section */
 		0615C965644A907A8978AB7D /* Pods-JQReimbursementUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQReimbursementUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JQReimbursementUITests/Pods-JQReimbursementUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F5F8DD5E58AE7EB6787BEC9 /* Pods-JQReimbursement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQReimbursement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JQReimbursement/Pods-JQReimbursement.debug.xcconfig"; sourceTree = "<group>"; };
+		5A0C26F920F9E1BA00D6BE35 /* BasicInformationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicInformationCell.h; sourceTree = "<group>"; };
+		5A0C26FA20F9E1BA00D6BE35 /* BasicInformationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicInformationCell.m; sourceTree = "<group>"; };
+		5A0C26FC20F9E47400D6BE35 /* BasicInformationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicInformationCell.xib; sourceTree = "<group>"; };
+		5A0C272E20FA458A00D6BE35 /* JQTextInputCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQTextInputCell.h; sourceTree = "<group>"; };
+		5A0C272F20FA458A00D6BE35 /* JQTextInputCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQTextInputCell.m; sourceTree = "<group>"; };
+		5A0C273120FA482300D6BE35 /* JQTextInputCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JQTextInputCell.xib; sourceTree = "<group>"; };
+		5A0C273320FA490400D6BE35 /* JQLabeledTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JQLabeledTextFieldCell.m; path = ../../../../../JQLabeledTextFieldCell.m; sourceTree = "<group>"; };
+		5A0C273420FA490400D6BE35 /* JQLabeledTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JQLabeledTextFieldCell.h; path = ../../../../../JQLabeledTextFieldCell.h; sourceTree = "<group>"; };
+		5A0C273620FA59B200D6BE35 /* JQLabeledTextFieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JQLabeledTextFieldCell.xib; sourceTree = "<group>"; };
+		5A3B130A20FB75EC00BA1EAB /* JQLableRightButtonCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQLableRightButtonCell.h; sourceTree = "<group>"; };
+		5A3B130B20FB75EC00BA1EAB /* JQLableRightButtonCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQLableRightButtonCell.m; sourceTree = "<group>"; };
+		5A3B130D20FB75FD00BA1EAB /* JQLableRightButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JQLableRightButtonCell.xib; sourceTree = "<group>"; };
+		5A3B130F20FB79F600BA1EAB /* ReimbursementDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReimbursementDetailViewController.h; sourceTree = "<group>"; };
+		5A3B131020FB79F600BA1EAB /* ReimbursementDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReimbursementDetailViewController.m; sourceTree = "<group>"; };
+		5A3B131220FB7C6900BA1EAB /* JQReimbursementDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQReimbursementDetailCell.h; sourceTree = "<group>"; };
+		5A3B131320FB7C6900BA1EAB /* JQReimbursementDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQReimbursementDetailCell.m; sourceTree = "<group>"; };
+		5A3B131520FB7C7600BA1EAB /* JQReimbursementDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JQReimbursementDetailCell.xib; sourceTree = "<group>"; };
 		5A5EFD0C20EE1EFA004F88C3 /* JQReimbursement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQReimbursement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A5EFD0F20EE1EFA004F88C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A5EFD1020EE1EFA004F88C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,6 +95,22 @@
 		5A5EFD3520EE1EFD004F88C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A5EFD4120EE1F93004F88C3 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		5A5EFD4220EE1F93004F88C3 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		5A5EFD6A20EF5E79004F88C3 /* JQBaseNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQBaseNavViewController.h; sourceTree = "<group>"; };
+		5A5EFD6B20EF5E79004F88C3 /* JQBaseNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQBaseNavViewController.m; sourceTree = "<group>"; };
+		5A5EFD7220EF5FC2004F88C3 /* JQHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQHomeViewController.h; sourceTree = "<group>"; };
+		5A5EFD7320EF5FC2004F88C3 /* JQHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQHomeViewController.m; sourceTree = "<group>"; };
+		5A5EFD7520EF5FDB004F88C3 /* JQFunctionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQFunctionViewController.h; sourceTree = "<group>"; };
+		5A5EFD7620EF5FDB004F88C3 /* JQFunctionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQFunctionViewController.m; sourceTree = "<group>"; };
+		5A5EFD7820EF5FE9004F88C3 /* JQMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQMessageViewController.h; sourceTree = "<group>"; };
+		5A5EFD7920EF5FE9004F88C3 /* JQMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQMessageViewController.m; sourceTree = "<group>"; };
+		5A5EFD7B20EF5FF6004F88C3 /* JQMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQMineViewController.h; sourceTree = "<group>"; };
+		5A5EFD7C20EF5FF6004F88C3 /* JQMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQMineViewController.m; sourceTree = "<group>"; };
+		5A5EFD7E20EF6FD6004F88C3 /* HomeCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewCell.h; sourceTree = "<group>"; };
+		5A5EFD7F20EF6FD6004F88C3 /* HomeCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewCell.m; sourceTree = "<group>"; };
+		5AA1705020F4AABC00054AD1 /* TravelReimbViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TravelReimbViewController.h; sourceTree = "<group>"; };
+		5AA1705120F4AABC00054AD1 /* TravelReimbViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelReimbViewController.m; sourceTree = "<group>"; };
+		5AA1705320F5B3FC00054AD1 /* PaperRegistrationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaperRegistrationViewController.h; sourceTree = "<group>"; };
+		5AA1705420F5B3FC00054AD1 /* PaperRegistrationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaperRegistrationViewController.m; sourceTree = "<group>"; };
 		7CB483A24FE5B37CCFC3A4E8 /* libPods-JQReimbursementTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQReimbursementTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24E8BC1F2B7F0F3475F7020 /* libPods-JQReimbursementUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQReimbursementUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58B25B7EE5E4337189A5DBD /* Pods-JQReimbursementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQReimbursementTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JQReimbursementTests/Pods-JQReimbursementTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +148,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A0FB6A620F89700005CEF70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A0C273420FA490400D6BE35 /* JQLabeledTextFieldCell.h */,
+				5A0C273320FA490400D6BE35 /* JQLabeledTextFieldCell.m */,
+				5A0C273620FA59B200D6BE35 /* JQLabeledTextFieldCell.xib */,
+				5A0C26F920F9E1BA00D6BE35 /* BasicInformationCell.h */,
+				5A0C26FA20F9E1BA00D6BE35 /* BasicInformationCell.m */,
+				5A0C26FC20F9E47400D6BE35 /* BasicInformationCell.xib */,
+				5A0C272E20FA458A00D6BE35 /* JQTextInputCell.h */,
+				5A0C272F20FA458A00D6BE35 /* JQTextInputCell.m */,
+				5A0C273120FA482300D6BE35 /* JQTextInputCell.xib */,
+				5A3B130A20FB75EC00BA1EAB /* JQLableRightButtonCell.h */,
+				5A3B130B20FB75EC00BA1EAB /* JQLableRightButtonCell.m */,
+				5A3B130D20FB75FD00BA1EAB /* JQLableRightButtonCell.xib */,
+				5A3B131220FB7C6900BA1EAB /* JQReimbursementDetailCell.h */,
+				5A3B131320FB7C6900BA1EAB /* JQReimbursementDetailCell.m */,
+				5A3B131520FB7C7600BA1EAB /* JQReimbursementDetailCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A0FB6A720F89706005CEF70 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A0FB6A820F8971A005CEF70 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A5EFD7220EF5FC2004F88C3 /* JQHomeViewController.h */,
+				5A5EFD7320EF5FC2004F88C3 /* JQHomeViewController.m */,
+				5A5EFD7E20EF6FD6004F88C3 /* HomeCollectionViewCell.h */,
+				5A5EFD7F20EF6FD6004F88C3 /* HomeCollectionViewCell.m */,
+				5AA1705020F4AABC00054AD1 /* TravelReimbViewController.h */,
+				5AA1705120F4AABC00054AD1 /* TravelReimbViewController.m */,
+				5AA1705320F5B3FC00054AD1 /* PaperRegistrationViewController.h */,
+				5AA1705420F5B3FC00054AD1 /* PaperRegistrationViewController.m */,
+				5A3B130F20FB79F600BA1EAB /* ReimbursementDetailViewController.h */,
+				5A3B131020FB79F600BA1EAB /* ReimbursementDetailViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		5A5EFD0320EE1EFA004F88C3 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +219,8 @@
 		5A5EFD0E20EE1EFA004F88C3 /* JQReimbursement */ = {
 			isa = PBXGroup;
 			children = (
+				5A5EFD6D20EF5F5D004F88C3 /* Module */,
+				5A5EFD6920EF5DC3004F88C3 /* BaseViewControl */,
 				5A5EFD0F20EE1EFA004F88C3 /* AppDelegate.h */,
 				5A5EFD1020EE1EFA004F88C3 /* AppDelegate.m */,
 				5A5EFD1220EE1EFA004F88C3 /* ViewController.h */,
@@ -152,6 +252,63 @@
 				5A5EFD3520EE1EFD004F88C3 /* Info.plist */,
 			);
 			path = JQReimbursementUITests;
+			sourceTree = "<group>";
+		};
+		5A5EFD6920EF5DC3004F88C3 /* BaseViewControl */ = {
+			isa = PBXGroup;
+			children = (
+				5A5EFD6A20EF5E79004F88C3 /* JQBaseNavViewController.h */,
+				5A5EFD6B20EF5E79004F88C3 /* JQBaseNavViewController.m */,
+			);
+			path = BaseViewControl;
+			sourceTree = "<group>";
+		};
+		5A5EFD6D20EF5F5D004F88C3 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				5A5EFD7120EF5FA2004F88C3 /* MineVc */,
+				5A5EFD7020EF5F98004F88C3 /* MessageVc */,
+				5A5EFD6F20EF5F79004F88C3 /* FunctionVc */,
+				5A5EFD6E20EF5F6A004F88C3 /* HomeVc */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		5A5EFD6E20EF5F6A004F88C3 /* HomeVc */ = {
+			isa = PBXGroup;
+			children = (
+				5A0FB6A820F8971A005CEF70 /* Controllers */,
+				5A0FB6A720F89706005CEF70 /* Models */,
+				5A0FB6A620F89700005CEF70 /* Views */,
+			);
+			path = HomeVc;
+			sourceTree = "<group>";
+		};
+		5A5EFD6F20EF5F79004F88C3 /* FunctionVc */ = {
+			isa = PBXGroup;
+			children = (
+				5A5EFD7520EF5FDB004F88C3 /* JQFunctionViewController.h */,
+				5A5EFD7620EF5FDB004F88C3 /* JQFunctionViewController.m */,
+			);
+			path = FunctionVc;
+			sourceTree = "<group>";
+		};
+		5A5EFD7020EF5F98004F88C3 /* MessageVc */ = {
+			isa = PBXGroup;
+			children = (
+				5A5EFD7820EF5FE9004F88C3 /* JQMessageViewController.h */,
+				5A5EFD7920EF5FE9004F88C3 /* JQMessageViewController.m */,
+			);
+			path = MessageVc;
+			sourceTree = "<group>";
+		};
+		5A5EFD7120EF5FA2004F88C3 /* MineVc */ = {
+			isa = PBXGroup;
+			children = (
+				5A5EFD7B20EF5FF6004F88C3 /* JQMineViewController.h */,
+				5A5EFD7C20EF5FF6004F88C3 /* JQMineViewController.m */,
+			);
+			path = MineVc;
 			sourceTree = "<group>";
 		};
 		7B7CD4855FFF15051F4D5E47 /* Pods */ = {
@@ -290,8 +447,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A5EFD1C20EE1EFD004F88C3 /* LaunchScreen.storyboard in Resources */,
+				5A0C26FD20F9E47400D6BE35 /* BasicInformationCell.xib in Resources */,
+				5A0C273720FA59B200D6BE35 /* JQLabeledTextFieldCell.xib in Resources */,
+				5A3B130E20FB75FD00BA1EAB /* JQLableRightButtonCell.xib in Resources */,
 				5A5EFD1920EE1EFD004F88C3 /* Assets.xcassets in Resources */,
 				5A5EFD1720EE1EFA004F88C3 /* Main.storyboard in Resources */,
+				5A3B131620FB7C7600BA1EAB /* JQReimbursementDetailCell.xib in Resources */,
+				5A0C273220FA482300D6BE35 /* JQTextInputCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +498,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JQReimbursement/Pods-JQReimbursement-resources.sh",
+				"${PODS_ROOT}/XLForm/XLForm/XLForm.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XLForm.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -463,10 +628,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A0C26FB20F9E1BA00D6BE35 /* BasicInformationCell.m in Sources */,
+				5A5EFD7420EF5FC2004F88C3 /* JQHomeViewController.m in Sources */,
+				5A3B131120FB79F600BA1EAB /* ReimbursementDetailViewController.m in Sources */,
+				5A5EFD7D20EF5FF6004F88C3 /* JQMineViewController.m in Sources */,
+				5A3B131420FB7C6900BA1EAB /* JQReimbursementDetailCell.m in Sources */,
 				5A5EFD4320EE1F94004F88C3 /* TabBarViewController.m in Sources */,
+				5A0C273020FA458A00D6BE35 /* JQTextInputCell.m in Sources */,
 				5A5EFD1420EE1EFA004F88C3 /* ViewController.m in Sources */,
+				5A5EFD7A20EF5FE9004F88C3 /* JQMessageViewController.m in Sources */,
+				5A5EFD7720EF5FDB004F88C3 /* JQFunctionViewController.m in Sources */,
+				5A3B130C20FB75EC00BA1EAB /* JQLableRightButtonCell.m in Sources */,
+				5AA1705520F5B3FC00054AD1 /* PaperRegistrationViewController.m in Sources */,
+				5A5EFD6C20EF5E79004F88C3 /* JQBaseNavViewController.m in Sources */,
+				5A0C273520FA490400D6BE35 /* JQLabeledTextFieldCell.m in Sources */,
 				5A5EFD1F20EE1EFD004F88C3 /* main.m in Sources */,
 				5A5EFD1120EE1EFA004F88C3 /* AppDelegate.m in Sources */,
+				5A5EFD8020EF6FD6004F88C3 /* HomeCollectionViewCell.m in Sources */,
+				5AA1705220F4AABC00054AD1 /* TravelReimbViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,7 +818,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93P22LV9G4;
 				INFOPLIST_FILE = JQReimbursement/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuqi.JQReimbursement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -654,7 +837,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93P22LV9G4;
 				INFOPLIST_FILE = JQReimbursement/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuqi.JQReimbursement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -668,7 +855,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JQReimbursementTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuqi.JQReimbursementTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -683,7 +874,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JQReimbursementTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuqi.JQReimbursementTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -697,7 +892,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JQReimbursementUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuqi.JQReimbursementUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -711,7 +910,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JQReimbursementUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuqi.JQReimbursementUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

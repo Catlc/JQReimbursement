@@ -6,7 +6,9 @@ target 'JQReimbursement' do
   # use_frameworks!
 
   # Pods for JQReimbursement
-
+   
+   pod 'SDCycleScrollView','~> 1.75'
+   pod 'XLForm', '~> 4.0'
   target 'JQReimbursementTests' do
     inherit! :search_paths
     # Pods for testing

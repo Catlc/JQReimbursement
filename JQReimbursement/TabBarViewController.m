@@ -8,7 +8,12 @@
 //#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
 
 #import "TabBarViewController.h"
+#import "JQBaseNavViewController.h"
 
+#import "JQMineViewController.h"
+#import "JQHomeViewController.h"
+#import "JQMessageViewController.h"
+#import "JQFunctionViewController.h"
 
 
 @interface TabBarViewController ()
@@ -22,24 +27,25 @@
     // Do any additional setup after loading the view.
     [self setupTabBarChildController];
     self.selectedIndex = 0;
-    
+    [self.tabBar.items objectAtIndex:2].badgeValue = @"99";
+    [self.tabBar.items objectAtIndex:2].badgeColor = [UIColor redColor];
 }
  - (void)setupTabBarChildController {
     
     
     self.tabBar.barTintColor = [UIColor whiteColor];
     self.tabBar.translucent = NO;
-    NSArray *imageArray = @[@"新闻与资讯未选中", @"角码供应商未选中", @"企业服务未选中"];
-    NSArray *selectImageArray = @[@"新闻与资讯选中", @"角码供应商选中", @"企业服务选中"];
-    NSArray *classes = @[@"UIViewController", @"UIViewController", @"UIViewController"];
+    NSArray *imageArray = @[@"tab_icon_nor_bg", @"tab_icon_nor_gn", @"tab_icon_nor_xx",@"tab_icon_nor_wo"];
+    NSArray *selectImageArray = @[@"tab_icon_sel_bg", @"tab_icon_sel_gn", @"tab_icon_sel_xx",@"tab_icon_sel_wo"];
+    NSArray *classes = @[@"JQHomeViewController", @"JQFunctionViewController", @"JQMessageViewController",@"JQMineViewController"];
 
-    NSArray *titleArray = @[@"新闻与资讯", @"能源转型研究院", @"杂志订阅"];
+    NSArray *titleArray = @[@"首页", @"功能", @"消息",@"我的"];
     for (int i = 0; i < imageArray.count; i++) {
         
         Class class = NSClassFromString(classes[i]);
         UIViewController *vc = [class new];
-        vc.view.backgroundColor = [UIColor blueColor];
-        UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+        vc.view.backgroundColor = [UIColor whiteColor];
+        JQBaseNavViewController *nav = [[JQBaseNavViewController alloc]initWithRootViewController:vc];
         vc.title = titleArray[i];
         
         nav.tabBarItem.image = [[UIImage imageNamed:imageArray[i]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];

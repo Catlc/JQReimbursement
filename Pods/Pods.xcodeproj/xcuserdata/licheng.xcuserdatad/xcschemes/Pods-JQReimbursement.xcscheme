@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96BE479790759A50885F9401BDE5A7CD"
+               BlueprintIdentifier = "24FF9073D8BAC5C748E0DB24AD18DCA5"
                BlueprintName = "Pods-JQReimbursement"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPods-JQReimbursement.a">

@@ -20,7 +20,8 @@
     // Override point for customization after application launch.
     
     self.window.rootViewController = [TabBarViewController new];
-
+    // 设置并显示主窗口
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
